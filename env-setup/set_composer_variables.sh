@@ -18,7 +18,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-declare -A variables
+declare -a variables list
 variables["gcp_project"]="${GCP_PROJECT_ID}"
 variables["gcp_region"]="${COMPOSER_REGION}"
 variables["gcp_zone"]="${COMPOSER_ZONE_ID}"
